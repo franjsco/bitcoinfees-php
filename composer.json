@@ -2,14 +2,23 @@
     "name": "franjsco/bitcoinfees",
     "description": "A PHP package to fetch Bitcoin fee predictions from bitcoinfees.earn.com",
     "type": "library",
+    "keywords": ["bitcoin", "cryptocurrency", "api", "fee"],
     "require": {
         "guzzlehttp/guzzle": "^7.4",
-        "ext-json": "*"
+        "ext-json": "*",
+        "php": "^7.2|^8.0"
     },
     "license": "GPL-2.0",
     "autoload": {
         "psr-4": {
             "Franjsco\\Bitcoinfees\\": "src/"
         }
-    }
+    },
+    "authors": [
+        {
+            "name": "Francesco Esposito (franjsco)",
+            "homepage": "https://franjsco.github.io/",
+            "role": "developer"
+        }
+    ],
 }
