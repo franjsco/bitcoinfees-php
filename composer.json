@@ -1,6 +1,6 @@
 {
     "name": "franjsco/bitcoinfees",
-    "description": "A PHP package to fetch fee predictions from bitcoinfees.earn.com",
+    "description": "A PHP package to fetch Bitcoin fee predictions from bitcoinfees.earn.com",
     "type": "library",
     "require": {
         "guzzlehttp/guzzle": "^7.4",
